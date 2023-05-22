@@ -1,0 +1,39 @@
+Server:
+  port: 8086
+
+
+spring:
+  application:
+    name: fraud
+  Datasource:
+    username: "root"
+    url: jdbc:mysql://127.0.0.1:3306/fraud
+    password: "oluwaloni"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+  #spring.security.user.name = Alex
+  #spring.security.user.password= alex
+  #  server.port=8084
+  #Server.servlet.context-path=/authenticate
+
+
+  #spring.h2.console.enabled=true
+  #spring.datasource.generate-unique-name=false
+  #spring.datasource.name=people#spring.datasource.url=jdbc:h2:mem:bank#spring.datasource.driverClassName=org.h2.Driver
+  #spring.datasource.username=sa
+  #spring.datasource.password=
+  #spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+
+
+#  spring.jpa.hibernate.ddl-auto=update
+#  spring.datasource.url =jdbc:mysql://127.0.0.1:3306/grafana_datasource
+#  spring.datasource.username =root
+#  spring.datasource.password =oluwaloni
+#  spring.datasource.driver-class-name =com.mysql.cj.jdbc.Driver
+#  spring.jpa.show-sql =true
+#  #spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQL5InnoDBDialect
+#  spring.jpa.properties.hibernate.dialect = org.hibernate.dialect.MySQLDialect
